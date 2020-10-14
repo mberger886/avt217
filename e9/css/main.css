@@ -1,0 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+main {
+  width: 130vw;
+  margin:-50px -15vw;
+}
+.shape1 {
+  background-color: green;
+  width: 100px;
+  height: 400px;
+  margin: -5px -25px;
+  float: left;
+  opacity: .6;
+}
+
+.shape2 {
+  transform: rotate(20deg);
+  background-color: yellow;
+  width: 50px;
+  height: 400px;
+  margin: 5px -20px;
+  float: left;
+  opacity: .6;
+}
+
+.shape3 {
+  transform: rotate(20deg);
+  background-color: blue;
+  width: 20px;
+  height: 100px;
+  margin: -5px -12.5px;
+  float: left;
+  opacity: .6;
+}
