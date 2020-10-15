@@ -4,8 +4,23 @@ body {
   color: #FFF8DC;
 }
 main {
-  display: block;
+  display: flow-root;
+  float: left;
   margin-left: auto;
   margin-right: auto;
   width: 50%;
+}
+
+img.resize {
+  max-height: 50%;
+}
+
+h1 {
+  font-family: elido, sans-serif;
+  font-weight: 600;
+}
+
+h2 {
+  font-family: elido, sans-serif;
+  font-weight: 500;
 }
