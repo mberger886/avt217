@@ -5,6 +5,10 @@ body {
   margin: 0;
 }
 
+.board {
+  width: 800px;
+}
+
 .coral .purple {
   width: 100px;
   height: 100px;
