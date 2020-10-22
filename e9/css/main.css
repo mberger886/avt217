@@ -12,6 +12,10 @@ main {
   margin:-50px -15vw;
 }
 
+.page2body {
+  background-color: ;
+}
+
 .page3body {
   background-color: #F2CEE6;
 }
@@ -145,4 +149,58 @@ main {
   margin: -65px;
   opacity: .75;
   float: left;
+}
+
+.shape14 {
+  width: 268px;
+  height: 134px;
+  background: #8789C0;
+  border-radius: 134px / 67px;
+  transform: rotate(45deg);
+  float: left;
+  margin: -10px -40.5px;
+  opacity: 0.7;
+}
+
+.shape15 {
+  width: 100px;
+  height: 100px;
+  background-image: linear-gradient(#66FF99, white);
+  transform: rotate(45deg);
+  margin: -20px -25px;
+  float: left;
+}
+
+
+.shape16 {
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-bottom-color: #F4FAFF;
+  position: relative;
+  top: -50px;
+  margin: -15px;
+  opacity: 0.5;
+  float: left;
+}
+
+.shape16:after {
+  content: close-quote;
+  position: absolute;
+  left: -50px;
+  top: 50px;
+  width: 0;
+  height: 0;
+  border: 50px solid transparent;
+  border-top-color: #F4FAFF;
+  float: left;
+}
+
+.shape17 {
+  width: 150px;
+  height: 150px;
+  background-color: #7CC6FE;
+  transform: rotate(45deg);
+  float: left;
+  margin: -10px -50px;
 }
