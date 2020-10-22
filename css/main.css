@@ -48,3 +48,14 @@ ul {
 a {
   color: #00CED1;
 }
+
+ @media screen and (max-width: 1283px) {
+   .col {
+     width: 100%;
+     margin-bottom: 50px;
+     font-size: 1.5vw;
+   }
+   h1 {
+     font-size: 7vw;
+   }
+ }
