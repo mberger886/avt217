@@ -7,9 +7,16 @@ body {
   display: flow-root;
 }
 
+/*e10 home*/
+
+
+/*Checkerboard*/
+
 .board {
-  width: 800px;
-  margin: 50px auto 0;
+  width: 900px;
+  padding: 5px;
+  margin: 50px auto;
+  display: flow-root;
 }
 
 .coral, .purple {
@@ -25,3 +32,5 @@ body {
 .purple {
   background-color: #3939ac;
 }
+
+/*3 column grid*/
