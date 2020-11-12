@@ -7,13 +7,7 @@ body {
   overflow-x: hidden;
 }
 
-header {
-  width: 100%;
-  background-color: white;
-}
-
-
-img.resize1 {
+.resize1 {
   max-width: 50%;
   max-height: 50%;
 }
@@ -66,12 +60,38 @@ h2 {
   display: inline-block;
 }
 
+
+/*homepage*/
+
+.h2container {
+  position: relative;
+  text-align: center;
+}
+
 .homeh2 {
-  font-size: 138pt;
-  height: 300px;
-  background-image: url('../images/white_texture.jpg');
+  font-size: 137pt;
   background-size: 100%;
   background-repeat: no-repeat;
+  position: absolute;
+  float: left;
+  width: 100%;
+  margin: 270px auto;
+  z-index: 3;
+}
+
+.whitetexture  {
+  width: 100%;
+  height: 20%;
+  z-index: -2;
+}
+
+.museum {
+  max-width: 60%;
+  max-height: 60%;
+  position: relative;
+  display: block;
+  bottom: 580px;
+  margin: 20px auto;
 }
 
 .homep {
@@ -81,8 +101,6 @@ h2 {
   font-size: 22pt;
 }
 
-
-
-.homebackground {
+.homebackground  {
   background-color: #ebebeb;
 }
