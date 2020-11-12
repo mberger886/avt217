@@ -7,8 +7,82 @@ body {
   overflow-x: hidden;
 }
 
+header {
+  width: 100%;
+  background-color: white;
+}
+
 
 img.resize1 {
   max-width: 50%;
   max-height: 50%;
+}
+
+h1 {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  font-size: 57.18pt;
+  float: left;
+  width: 45%;
+  margin-top: 5px;
+  margin-left: 40px;
+  text-align: left;
+  display: inline;
+}
+
+nav {
+  font-family: kepler-std, serif;
+  font-weight: 300;
+  font-size: 22pt;
+  width: 45%;
+  overflow: hidden;
+  text-align: left;
+  float: right;
+  margin-top: 5px;
+  margin-right: 5px;
+}
+
+ul li {
+  list-style-type: none;
+  display: inline;
+  float: left;
+  width: 25%;
+}
+
+ul li a {
+  text-decoration: none;
+  color: Black;
+}
+
+a:hover {
+  color: gray;
+}
+
+h2 {
+  font-family: raleway, sans-serif;
+  font-weight: 700;
+  font-style: normal;
+  display: inline-block;
+}
+
+.homeh2 {
+  font-size: 138pt;
+  height: 300px;
+  background-image: url('../images/white_texture.jpg');
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.homep {
+  font-family: kepler-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 22pt;
+}
+
+
+
+.homebackground {
+  background-color: #ebebeb;
 }
