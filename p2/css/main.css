@@ -63,22 +63,6 @@ h2 {
   float: left;
 }
 
-h3 {
-  font-family: raleway, sans-serif;
-  font-weight: 300;
-  font-style: normal;
-  font-size: 42pt;
-}
-
-h4 {
-  font-family: kepler-std, serif;
-  font-weight: 500;
-  font-style: italic;
-  font-size: 48pt;
-  color: white;
-  background-color: black;
-}
-
 .hero {
   background: url(../images/white_texture.jpg) no-repeat center center;
   height: 1000px;
@@ -90,7 +74,7 @@ h4 {
 }
 
 .homeh2 {
-  font-size: 138pt;
+  font-size: 143pt;
   width: 100%;
   text-align: center;
   padding: 0 auto;
@@ -102,21 +86,28 @@ h4 {
   left: 20%;
   top: 600px;
   float: left;
+  padding-right: 32px;
 }
 
 .homep1, .homep2 {
   font-family: kepler-std, serif;
   font-weight: 300;
   font-style: normal;
-  font-size: 22pt;
+  font-size: 16pt;
+  padding: 0;
   margin-left: 20%;
-  margin-right: 350px;
+  margin-right: 20%;
   line-height: 1.7em;
   float: left;
 }
 
 .homep1 {
-  margin-top: 240px;
+  margin-top: 200px;
+}
+
+.homep2 {
+  margin-top: 30px;
+  margin-bottom: 50px;
 }
 
 .boxes {
@@ -128,10 +119,78 @@ h4 {
 
 /*exhibits*/
 
+.exhibitbackgrnd {
+  background-color: #ebebeb;
+  padding: 0;
+  display: flow-root;
+}
+
+
 .h2exhibits {
-  font-size: 133pt;
+  font-size: 109pt;
   width: 100%;
   text-align: center;
   padding: 0 auto;
+  margin: 170px auto 40px;
   color: #fe464d;
+  float: left;
+}
+
+h3 {
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 32pt;
+  margin: 20px 342px 30px;
+  float: left;
+}
+
+h4 {
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 24pt;
+  color: white;
+  background-color: black;
+  border: 15px solid;
+  border-color: black;
+  margin: 17px 342px;
+  float: left;
+}
+
+h5 {
+  margin: 10px 342px;
+  font-size: 28pt;
+  float: left;
+}
+
+.red {
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 20px;
+  color: #fe464d;
+  margin: 0 342px;
+  float: left;
+}
+
+p {
+  font-family: kepler-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 16px;
+  line-height: 1.7em;
+  margin: 10px 342px;
+  float: left;
+}
+.cactus {
+  margin: 0;
+}
+
+.exhibitimg {
+  display: flow-root;
+  max-width: 975px;
+  max-height: 80%;
+  margin: 17px 342px;
+  float: left;
 }
