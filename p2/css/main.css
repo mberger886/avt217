@@ -1,12 +1,10 @@
 * {
   box-sizing: border-box;
 }
-
 body {
   margin: 0;
   overflow-x: hidden;
 }
-
 header {
   width: 100%;
   background-color: white;
@@ -14,7 +12,6 @@ header {
   padding: 10px 30px;
   margin: 0;
 }
-
 h1 {
   font-family: raleway, sans-serif;
   font-weight: 700;
@@ -26,7 +23,6 @@ h1 {
   text-align: left;
   display: inline;
 }
-
 nav {
   font-family: kepler-std, serif;
   font-weight: 300;
@@ -37,7 +33,6 @@ nav {
   margin-left: 0;
   float: right;
 }
-
 ul li {
   list-style-type: none;
   display: inline;
@@ -46,40 +41,33 @@ ul li {
   text-align: center;
   width: 25%;
 }
-
 ul li a {
   text-decoration: none;
   color: Black;
 }
-
 a:hover {
   color: gray;
 }
-
 h2 {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-style: normal;
   float: left;
 }
-
 .hero {
   background: url(../images/white_texture.jpg) no-repeat center center;
   height: 1000px;
 }
-
 .homebackground {
   background-color: #ebebeb;
   float: left;
 }
-
 .homeh2 {
   font-size: 143pt;
   width: 100%;
   text-align: center;
   padding: 0 auto;
 }
-
 .museum {
   position: absolute;
   max-width: 62%;
@@ -88,7 +76,6 @@ h2 {
   float: left;
   padding-right: 32px;
 }
-
 .homep1, .homep2 {
   font-family: kepler-std, serif;
   font-weight: 300;
@@ -100,16 +87,13 @@ h2 {
   line-height: 1.7em;
   float: left;
 }
-
 .homep1 {
   margin-top: 200px;
 }
-
 .homep2 {
   margin-top: 30px;
   margin-bottom: 50px;
 }
-
 .boxes {
   max-width: 60%;
   margin-top: 20px;
@@ -124,8 +108,6 @@ h2 {
   padding: 0;
   display: flow-root;
 }
-
-
 .h2exhibits {
   font-size: 109pt;
   width: 100%;
@@ -135,7 +117,6 @@ h2 {
   color: #fe464d;
   float: left;
 }
-
 h3 {
   font-family: raleway, sans-serif;
   font-weight: 300;
@@ -144,7 +125,6 @@ h3 {
   margin: 20px 342px 30px;
   float: left;
 }
-
 h4 {
   font-family: kepler-std, serif;
   font-weight: 500;
@@ -157,13 +137,11 @@ h4 {
   margin: 17px 342px;
   float: left;
 }
-
 h5 {
   margin: 10px 342px;
   font-size: 28pt;
   float: left;
 }
-
 .red {
   font-family: raleway, sans-serif;
   font-weight: 300;
@@ -173,7 +151,6 @@ h5 {
   margin: 0 342px;
   float: left;
 }
-
 p {
   font-family: kepler-std, serif;
   font-weight: 300;
@@ -186,7 +163,6 @@ p {
 .cactus {
   margin: 0;
 }
-
 .exhibitimg {
   display: flow-root;
   max-width: 975px;
