@@ -15,17 +15,11 @@ header {
   margin: 0;
 }
 
-
-img.resize1 {
-  max-width: 80%;
-  max-height: 80%;
-}
-
 h1 {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-style: normal;
-  font-size: 50pt;
+  font-size: 60px;
   float: left;
   width: 45%;
   margin-top: 20px;
@@ -66,16 +60,34 @@ h2 {
   font-family: raleway, sans-serif;
   font-weight: 700;
   font-style: normal;
-  display: inline-block;
-  position: relative;
+  float: left;
+}
+
+h3 {
+  font-family: raleway, sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 42pt;
+}
+
+h4 {
+  font-family: kepler-std, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 48pt;
+  color: white;
+  background-color: black;
 }
 
 .hero {
   background: url(../images/white_texture.jpg) no-repeat center center;
-  background-size: cover;
-  height: 900px;
+  height: 1000px;
 }
 
+.homebackground {
+  background-color: #ebebeb;
+  float: left;
+}
 
 .homeh2 {
   font-size: 138pt;
@@ -84,16 +96,42 @@ h2 {
   padding: 0 auto;
 }
 
-.homep {
+.museum {
+  position: absolute;
+  max-width: 62%;
+  left: 20%;
+  top: 600px;
+  float: left;
+}
+
+.homep1, .homep2 {
   font-family: kepler-std, serif;
   font-weight: 300;
   font-style: normal;
   font-size: 22pt;
-  margin-left: 350px;
+  margin-left: 20%;
   margin-right: 350px;
+  line-height: 1.7em;
+  float: left;
 }
 
+.homep1 {
+  margin-top: 240px;
+}
 
-.homebackground {
-  background-color: #ebebeb;
+.boxes {
+  max-width: 60%;
+  margin-top: 20px;
+  margin-left: 20%;
+  float: left;
+}
+
+/*exhibits*/
+
+.h2exhibits {
+  font-size: 133pt;
+  width: 100%;
+  text-align: center;
+  padding: 0 auto;
+  color: #fe464d;
 }
