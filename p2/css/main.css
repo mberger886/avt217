@@ -101,7 +101,7 @@ h2 {
   float: left;
 }
 
-/*exhibits*/
+/*exhibits page*/
 
 .exhibitbackgrnd {
   background-color: #ebebeb;
@@ -117,15 +117,21 @@ h2 {
   color: #fe464d;
   float: left;
 }
-h3 {
+.subhead, .subhead2 {
   font-family: raleway, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 32pt;
-  margin: 20px 342px 30px;
+  width: 100%;
+  padding: 0 auto;
+  margin-left: 22%;
+  margin-right: 22%;
   float: left;
 }
-h4 {
+.subhead2 {
+  margin-top: 20px;
+}
+h3 {
   font-family: kepler-std, serif;
   font-weight: 500;
   font-style: italic;
@@ -134,21 +140,29 @@ h4 {
   background-color: black;
   border: 15px solid;
   border-color: black;
-  margin: 17px 342px;
+  margin: 20px 22%;
   float: left;
 }
-h5 {
-  margin: 10px 342px;
+h4 {
+  font-family: kepler-std, serif;
+  font-weight: 300;
+  font-style: normal;
+  margin: 10px 22%;
   font-size: 28pt;
+  color: white;
+  padding: 0 auto;
+  background-color: black;
+  border: 12px solid;
+  border-color: black;
   float: left;
 }
-.red {
+.red, .redbottom {
   font-family: raleway, sans-serif;
   font-weight: 300;
   font-style: normal;
   font-size: 20px;
   color: #fe464d;
-  margin: 0 342px;
+  margin: 0 22%;
   float: left;
 }
 p {
@@ -157,7 +171,7 @@ p {
   font-style: normal;
   font-size: 16px;
   line-height: 1.7em;
-  margin: 10px 342px;
+  margin: 10px 22%;
   float: left;
 }
 .cactus {
@@ -167,6 +181,20 @@ p {
   display: flow-root;
   max-width: 975px;
   max-height: 80%;
-  margin: 17px 342px;
+  margin: 17px 22%;
   float: left;
+}
+.redbottom {
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 1200px) {
+  h1 {
+    font-size: 54px;
+  }
+.h2exhibits {
+  font-size: 110px;
+}
+.exhibitimg {
+  max-height: 60%;
+  max-width: 60%;
 }
